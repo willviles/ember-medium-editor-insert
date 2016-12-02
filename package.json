@@ -1,6 +1,6 @@
 {
   "name": "ember-medium-editor-insert",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extends ember-cli-medium-editor with medium-editor-insert-plugin functionality",
   "keywords": [
     "ember-addon",
