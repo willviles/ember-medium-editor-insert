@@ -1,7 +1,7 @@
 {
   "name": "ember-medium-editor-insert",
-  "version": "0.0.0",
-  "description": "An Ember wrapper for medium-editor-insert-plugin",
+  "version": "0.0.1",
+  "description": "Extends ember-cli-medium-editor with medium-editor-insert-plugin functionality",
   "keywords": [
     "ember-addon",
     "ember-cli",
@@ -12,15 +12,13 @@
     "medium-editor",
     "medium-editor-insert-plugin",
     "ember-medium-editor",
-    "ember-cli-medium-editor",
+    "ember-cli-medium-editor"
   ],
-  "license": "MIT",
-  "author": "",
-  "directories": {
-    "doc": "doc",
-    "test": "tests"
-  },
-  "repository": "",
+  "license": "ISC",
+  "authors": [
+    "Will Viles <will@vil.es>"
+  ],
+  "repository": "https://github.com/willviles/ember-medium-editor-insert",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
