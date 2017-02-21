@@ -1,4 +1,5 @@
-# Ember Medium Editor Insert
+Ember Medium Editor Insert [![npm](https://img.shields.io/npm/v/ember-medium-editor-insert.svg)](https://www.npmjs.com/package/ember-medium-editor-insert)
+======
 
 This Ember Addon extends the functionality of [ember-cli-medium-editor](https://github.com/lukebrenton/ember-cli-medium-editor) to include [medium-editor-insert-plugin](https://github.com/orthes/medium-editor-insert-plugin). Medium Editor Insert Plugin is a jQuery insert plugin for [Medium Editor](https://github.com/yabwe/medium-editor), enabling:
 - **images**
