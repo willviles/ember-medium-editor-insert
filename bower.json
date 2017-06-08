@@ -1,6 +1,0 @@
-{
-  "name": "ember-medium-editor-insert",
-  "dependencies": {
-    "medium-editor-insert-plugin": "~2.4.0"
-  }
-}

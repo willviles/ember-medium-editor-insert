@@ -1,24 +1,26 @@
 import Ember from 'ember';
-import mediumEditor from 'ember-cli-medium-editor/components/medium-content-editable';
+import MediumEditor from 'ember-medium-editor/components/medium-editor';
 
-const { get, observer, merge } = Ember;
+const { get, merge, typeOf } = Ember;
 
 export function initialize() {
 
-  mediumEditor.reopen({
+  MediumEditor.reopen({
 
-    editorInitialized: observer('mediumEditor', function() {
-
+    _initEditor() {
       this._super(...arguments);
 
-      const opts = merge(
-        { editor: get(this, 'mediumEditor')},
-        get(this, 'insertOptions')
-      );
+      let options = get(this, 'options.plugins.insert');
 
-      this.$().mediumInsert(opts);
+      if (typeOf(options) !== 'object') { return; }
 
-    })
+      options = merge({
+        editor: get(this, '_editor')
+      }, options);
+
+      this.$().mediumInsert(options);
+
+    }
 
   });
 }
