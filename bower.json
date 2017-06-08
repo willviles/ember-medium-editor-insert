@@ -1,8 +1,6 @@
 {
   "name": "ember-medium-editor-insert",
   "dependencies": {
-    "ember": "~2.10.0",
-    "ember-cli-shims": "0.1.3",
     "medium-editor-insert-plugin": "~2.4.0"
   }
 }
